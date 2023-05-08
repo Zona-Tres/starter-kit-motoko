@@ -4,15 +4,6 @@
     "starter_kit_backend": {
       "type": "motoko",
       "main": "src/starter_kit_backend/main.mo"
-    },
-    "starter_kit_frontend": {
-      "type": "assets",
-      "source": [
-        "src/starter_kit_frontend/assets"
-      ],
-      "dependencies": [
-        "starter_kit_backend"
-      ]
     }
   },
   "defaults": {
