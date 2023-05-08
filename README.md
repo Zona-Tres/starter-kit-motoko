@@ -24,7 +24,7 @@ sh -ci "$(curl -fsSL https://internetcomputer.org/install.sh)"
 Considera los siguientes comandos para iniciar a trabajar:
 
 ```bash
-cd starter_kit/
+cd starter-kit-motoko/
 dfx help
 dfx canister --help
 ```
