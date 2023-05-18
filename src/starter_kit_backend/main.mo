@@ -3,6 +3,7 @@ import Text "mo:base/Text";
 import Principal "mo:base/Principal";
 import Array "mo:base/Array";
 import Debug "mo:base/Debug";
+import Bool "mo:base/Bool";
 
 actor MemeGallery {
 
@@ -14,6 +15,7 @@ actor MemeGallery {
   type Meme = {
     url : Text;
     desc : Text;
+    calificacion: Nat; // Creamos un termómetro de calificaciones
   };
 
   //creamos el hashmap para almacenar los memes
